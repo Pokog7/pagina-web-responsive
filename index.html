@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Ingeniería</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-indigo-600">IngenieríaXYZ</a>
+      <nav class="space-x-4">
+        <a href="#" class="text-gray-700 hover:text-indigo-600">Inicio</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600">Servicios</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600">Proyectos</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-96 flex items-center justify-center">
+    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Ingeniería" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative text-center text-white">
+      <h1 class="text-4xl font-bold mb-4">Soluciones de Ingeniería Innovadoras</h1>
+      <p class="text-lg mb-8">Construyendo el futuro con tecnología y precisión.</p>
+      <a href="#" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-50">Ver Servicios</a>
+    </div>
+  </section>
+
+  <!-- Servicios Section -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Servicio 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div class="text-indigo-600 mb-4">
+          <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold mb-4">Diseño Estructural</h3>
+        <p class="text-gray-700">Diseñamos estructuras seguras y eficientes para cualquier tipo de proyecto.</p>
+      </div>
+      <!-- Servicio 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div class="text-indigo-600 mb-4">
+          <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold mb-4">Ingeniería Civil</h3>
+        <p class="text-gray-700">Proyectos de infraestructura y construcción de alta calidad.</p>
+      </div>
+      <!-- Servicio 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div class="text-indigo-600 mb-4">
+          <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold mb-4">Consultoría</h3>
+        <p class="text-gray-700">Asesoramiento experto para optimizar tus proyectos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos Destacados -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Proyectos Destacados</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Proyecto 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Puente Moderno" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Puente Moderno</h3>
+          <p class="text-gray-700">Diseño y construcción de un puente en la ciudad de XYZ.</p>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80" alt="Edificio Corporativo" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Edificio Corporativo</h3>
+          <p class="text-gray-700">Construcción de un edificio inteligente y sostenible.</p>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80" alt="Autopista Urbana" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Autopista Urbana</h3>
+          <p class="text-gray-700">Planificación y ejecución de una autopista en la ciudad ABC.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-12">Sobre Nosotros</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <p class="text-gray-700 mb-4">Somos una empresa líder en ingeniería, especializada en diseño estructural, construcción y consultoría. Con más de 20 años de experiencia, hemos completado proyectos en más de 10 países.</p>
+        <p class="text-gray-700">Nuestro equipo de ingenieros altamente calificados está comprometido con la excelencia y la innovación en cada proyecto.</p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Equipo de Ingeniería" class="rounded-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="bg-indigo-600 text-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Lo que dicen nuestros clientes</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg text-gray-900">
+          <p class="mb-4">"Increíble trabajo, muy profesionales y rápidos."</p>
+          <p class="font-semibold">- Cliente Satisfecho</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-gray-900">
+          <p class="mb-4">"El diseño superó nuestras expectativas."</p>
+          <p class="font-semibold">- Otro Cliente</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-12">Contacto</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <p class="text-gray-700 mb-4">Estamos aquí para ayudarte. Contáctanos para más información.</p>
+        <p class="text-gray-700 mb-4">Email: info@ingenieriaxyz.com</p>
+        <p class="text-gray-700 mb-4">Teléfono: +123 456 789</p>
+      </div>
+      <div>
+        <form class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="mb-4">
+            <label class="block text-gray-700 mb-2">Nombre</label>
+            <input type="text" class="w-full px-4 py-2 border rounded-lg">
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 mb-2">Email</label>
+            <input type="email" class="w-full px-4 py-2 border rounded-lg">
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 mb-2">Mensaje</label>
+            <textarea class="w-full px-4 py-2 border rounded-lg"></textarea>
+          </div>
+          <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2023 IngenieríaXYZ. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
